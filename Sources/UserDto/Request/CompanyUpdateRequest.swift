@@ -17,18 +17,16 @@ public struct CompanyUpdateRequest: Codable {
     public let mainAddressId: UUID?
     public let name: String?
     public let newDomain: String?
-    public let tariff: String?
     
     // MARK: - Init
     public init(
-        currency: String?,
-        defaultLang: String?,
-        dns: [String]?,
-        isBlocked: Bool?,
-        mainAddressId: UUID?,
-        name: String?,
-        newDomain: String?,
-        tariff: String?
+        currency: String? = nil,
+        defaultLang: String? = nil,
+        dns: [String]? = nil,
+        isBlocked: Bool? = nil,
+        mainAddressId: UUID? = nil,
+        name: String? = nil,
+        newDomain: String? = nil
     ) {
         self.currency = currency
         self.defaultLang = defaultLang
@@ -37,6 +35,5 @@ public struct CompanyUpdateRequest: Codable {
         self.mainAddressId = mainAddressId
         self.name = name
         self.newDomain = newDomain
-        self.tariff = tariff
     }
 }
