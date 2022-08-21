@@ -14,7 +14,7 @@ public struct CompanyUpdateRequest: Codable {
     public let defaultLang: String?
     public let dns: [String]?
     public let isBlocked: Bool?
-    public let isOn: Bool?
+    public let isWork: Bool?
     public let mainAddressId: UUID?
     public let name: String?
     public let newDomain: String?
@@ -25,7 +25,7 @@ public struct CompanyUpdateRequest: Codable {
         defaultLang: String? = nil,
         dns: [String]? = nil,
         isBlocked: Bool? = nil,
-        isOn: Bool? = nil,
+        isWork: Bool? = nil,
         mainAddressId: UUID? = nil,
         name: String? = nil,
         newDomain: String? = nil
@@ -34,7 +34,7 @@ public struct CompanyUpdateRequest: Codable {
         self.defaultLang = defaultLang
         self.dns = dns
         self.isBlocked = isBlocked
-        self.isOn = isOn
+        self.isWork = isWork
         self.mainAddressId = mainAddressId
         self.name = name
         self.newDomain = newDomain
