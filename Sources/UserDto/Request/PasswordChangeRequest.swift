@@ -1,6 +1,6 @@
 //
 //  PasswordChangeRequest.swift
-//  Addswift
+//  UserDto
 //
 //  Created by Victor Chernykh on 12.07.2022.
 //

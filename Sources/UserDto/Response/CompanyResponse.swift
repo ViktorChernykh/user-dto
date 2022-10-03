@@ -1,6 +1,6 @@
 //
 //  CompanyResponse.swift
-//  Addswift
+//  UserDto
 //
 //  Created by Victor Chernykh on 17.08.2022.
 //

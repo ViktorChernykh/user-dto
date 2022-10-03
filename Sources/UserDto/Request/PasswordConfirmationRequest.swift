@@ -1,6 +1,6 @@
 //
 //  PasswordConfirmationRequest.swift
-//  Addswift
+//  UserDto
 //
 //  Created by Victor Chernykh on 10.08.2022.
 //

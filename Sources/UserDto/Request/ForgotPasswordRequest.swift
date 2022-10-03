@@ -1,6 +1,6 @@
 //
 //  ForgotPasswordRequest.swift
-//  Addswift
+//  UserDto
 //
 //  Created by Victor Chernykh on 15.07.2022.
 //

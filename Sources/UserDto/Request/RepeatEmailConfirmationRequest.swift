@@ -1,6 +1,6 @@
 //
 //  RepeatEmailConfirmationRequest.swift
-//  Addswift
+//  UserDto
 //
 //  Created by Victor Chernykh on 22.07.2022.
 //

@@ -1,6 +1,6 @@
 //
 //  UserListRequest.swift
-//  Addswift
+//  UserDto
 //
 //  Created by Victor Chernykh on 03.08.2022.
 //

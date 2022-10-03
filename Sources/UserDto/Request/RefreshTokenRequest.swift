@@ -1,6 +1,6 @@
 //
 //  RefreshTokenRequest.swift
-//  Addswift
+//  UserDto
 //
 //  Created by Victor Chernykh on 13.08.2022.
 //

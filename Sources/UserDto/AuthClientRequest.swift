@@ -1,6 +1,6 @@
 //
 //  AuthClientRequest.swift
-//  Addswift
+//  UserDto
 //
 //  Created by Victor Chernykh on 07.07.2022.
 //

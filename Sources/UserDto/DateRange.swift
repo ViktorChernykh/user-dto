@@ -1,6 +1,6 @@
 //
 //  DateRange.swift
-//  Addswift
+//  UserDto
 //
 //  Created by Victor Chernykh on 12.09.2022.
 //
