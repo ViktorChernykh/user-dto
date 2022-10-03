@@ -11,15 +11,21 @@ public struct UserListRequest: Codable {
     public let isAdmin: Bool?
     public let isBlock: Bool?
     public let email: String?
+    public let createdRange: DateRange?
+    public let updatedRange: DateRange?
     
     // MARK: - Init
     public init(
         isAdmin: Bool?,
         isBlock: Bool?,
-        email: String?
+        email: String?,
+        createdRange: DateRange?,
+        updatedRange: DateRange?
     ) {
         self.isAdmin = isAdmin
         self.isBlock = isBlock
         self.email = email
+        self.createdRange = createdRange
+        self.updatedRange = updatedRange
     }
 }

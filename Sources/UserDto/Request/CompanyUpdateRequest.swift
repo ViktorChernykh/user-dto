@@ -16,7 +16,7 @@ public struct CompanyUpdateRequest: Codable {
     public let isWork: Bool?
     public let mainAddressId: UUID?
     public let name: String?
-    public let newDomain: String?
+    public let domain: String?
     
     // MARK: - Init
     public init(
@@ -26,7 +26,7 @@ public struct CompanyUpdateRequest: Codable {
         isWork: Bool? = nil,
         mainAddressId: UUID? = nil,
         name: String? = nil,
-        newDomain: String? = nil
+        domain: String? = nil
     ) {
         self.currency = currency
         self.defaultLang = defaultLang
@@ -34,6 +34,6 @@ public struct CompanyUpdateRequest: Codable {
         self.isWork = isWork
         self.mainAddressId = mainAddressId
         self.name = name
-        self.newDomain = newDomain
+        self.domain = domain
     }
 }
