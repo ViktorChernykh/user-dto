@@ -1,5 +1,5 @@
 //
-//  RoleResponse.swift
+//  RoleData.swift
 //  UserDto
 //
 //  Created by Victor Chernykh on 12.07.2022.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct RoleResponse: Codable {
+public struct RoleData: Codable {
     // MARK: - Stored properties
     public let id: UUID?
     public let companyId: UUID

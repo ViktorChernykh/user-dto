@@ -1,5 +1,5 @@
 //
-//  EmailConfirmationRequest.swift
+//  EmailConfirmationData.swift
 //  UserDto
 //
 //  Created by Victor Chernykh on 01.07.2022.
@@ -8,7 +8,7 @@
 import Foundation
 
 /// Data transfer object with secure token to confirm email
-public struct EmailConfirmationRequest: Codable {
+public struct EmailConfirmationData: Codable {
     // MARK: - Stored properties
     public let token: String
     

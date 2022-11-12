@@ -1,5 +1,5 @@
 //
-//  CompanyRegisterRequest.swift
+//  CompanyRegisterData.swift
 //  UserDto
 //
 //  Created by Victor Chernykh on 07.07.2022.
@@ -8,7 +8,7 @@
 import Foundation
 
 /// Data transfer object with data for create owner and company
-public struct CompanyRegisterRequest: Codable {
+public struct CompanyRegisterData: Codable {
     // MARK: - Stored properties
     public let companyName: String
     public let currency: String

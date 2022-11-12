@@ -1,12 +1,12 @@
 //
-//  UserListRequest.swift
+//  UserListData.swift
 //  UserDto
 //
 //  Created by Victor Chernykh on 03.08.2022.
 //
 
 /// Data transfer object to user list request
-public struct UserListRequest: Codable {
+public struct UserListData: Codable {
     // MARK: - Stored properties
     public let isAdmin: Bool?
     public let isBlock: Bool?

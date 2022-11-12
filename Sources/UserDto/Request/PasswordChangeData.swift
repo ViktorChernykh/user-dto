@@ -1,5 +1,5 @@
 //
-//  PasswordChangeRequest.swift
+//  PasswordChangeData.swift
 //  UserDto
 //
 //  Created by Victor Chernykh on 12.07.2022.
@@ -8,7 +8,7 @@
 import Foundation
 
 /// Data transfer object with data for change password
-public struct PasswordChangeRequest: Codable {
+public struct PasswordChangeData: Codable {
     // MARK: - Stored properties
     public let currentPassword: String
     public let newPassword: String
