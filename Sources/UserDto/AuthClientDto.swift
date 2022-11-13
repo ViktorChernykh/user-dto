@@ -1,5 +1,5 @@
 //
-//  AuthClientData.swift
+//  AuthClientDto.swift
 //  UserDto
 //
 //  Created by Victor Chernykh on 07.07.2022.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct AuthClientData: Codable {
+public struct AuthClientDto: Codable {
     // MARK: - Stored properties
     public let id: UUID?
     public let companyId: UUID

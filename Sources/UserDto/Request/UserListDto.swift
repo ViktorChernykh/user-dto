@@ -1,20 +1,20 @@
 //
-//  UserListData.swift
+//  UserListDto.swift
 //  UserDto
 //
 //  Created by Victor Chernykh on 03.08.2022.
 //
 
 /// Data transfer object to user list request
-public struct UserListData: Codable {
+public struct UserListDto: Codable {
     // MARK: - Stored properties
     public let isAdmin: Bool?
     public let isBlock: Bool?
     public let email: String?
     public let page: Int?
     public let per: Int?
-    public let createdRange: DateRange?
-    public let updatedRange: DateRange?
+    public let createdRange: DateRangeDto?
+    public let updatedRange: DateRangeDto?
     
     // MARK: - Init
     public init(
@@ -23,8 +23,8 @@ public struct UserListData: Codable {
         email: String?,
         page: Int?,
         per: Int?,
-        createdRange: DateRange?,
-        updatedRange: DateRange?
+        createdRange: DateRangeDto?,
+        updatedRange: DateRangeDto?
     ) {
         self.isAdmin = isAdmin
         self.isBlock = isBlock

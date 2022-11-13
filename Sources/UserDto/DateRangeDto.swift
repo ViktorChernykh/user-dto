@@ -1,12 +1,12 @@
 //
-//  DateRange.swift
+//  DateRangeDto.swift
 //  UserDto
 //
 //  Created by Victor Chernykh on 12.09.2022.
 //
 import Foundation
 
-public struct DateRange: Codable {
+public struct DateRangeDto: Codable {
     public let from: Date?
     public let to: Date?
     

@@ -1,5 +1,5 @@
 //
-//  EmailData.swift
+//  EmailDto.swift
 //  UserDto
 //
 //  Created by Victor Chernykh on 03.07.2022.
@@ -7,21 +7,21 @@
 
 import Foundation
 
-public struct EmailData: Codable {
+public struct EmailDto: Codable {
     // MARK: - Stored properties
-    public let to: EmailAddressData
+    public let to: EmailAddressDto
     public let subject: String
     public let body: String
-    public let from: EmailAddressData?
-    public let replyTo: EmailAddressData?
+    public let from: EmailAddressDto?
+    public let replyTo: EmailAddressDto?
     
     // MARK: - Init
     public init(
-        to: EmailAddressData,
+        to: EmailAddressDto,
         subject: String,
         body: String,
-        from: EmailAddressData? = nil,
-        replyTo: EmailAddressData? = nil
+        from: EmailAddressDto? = nil,
+        replyTo: EmailAddressDto? = nil
     ) {
         self.to = to
         self.subject = subject

@@ -1,5 +1,5 @@
 //
-//  EmailAddressData.swift
+//  EmailAddressDto.swift
 //  UserDto
 //
 //  Created by Victor Chernykh on 03.07.2022.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct EmailAddressData: Codable {
+public struct EmailAddressDto: Codable {
     // MARK: - Stored properties
     public let address: String
     public let name: String?

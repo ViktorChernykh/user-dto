@@ -1,5 +1,5 @@
 //
-//  CompanyData.swift
+//  CompanyDto.swift
 //  UserDto
 //
 //  Created by Victor Chernykh on 17.08.2022.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct CompanyData: Codable {
+public struct CompanyDto: Codable {
     // MARK: - Stored properties
     public let appName: String?
     public let currency: String

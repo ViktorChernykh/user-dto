@@ -1,11 +1,11 @@
 //
-//  RefreshTokenData.swift
+//  RefreshTokenDto.swift
 //  UserDto
 //
 //  Created by Victor Chernykh on 13.08.2022.
 //
 
-public struct RefreshTokenData: Codable {
+public struct RefreshTokenDto: Codable {
     // MARK: - Stored properties
     public let token: String
     

@@ -1,5 +1,5 @@
 //
-//  CompanyUpdateData.swift
+//  CompanyUpdateDto.swift
 //  UserDto
 //
 //  Created by Victor Chernykh on 20.07.2022.
@@ -8,7 +8,7 @@
 import Foundation
 
 /// Data transfer object with new domain name
-public struct CompanyUpdateData: Codable {
+public struct CompanyUpdateDto: Codable {
     // MARK: - Stored properties
     public let currency: String?
     public let defaultLang: String?

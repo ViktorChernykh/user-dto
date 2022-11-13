@@ -1,5 +1,5 @@
 //
-//  UserRegistrationData.swift
+//  UserRegistrationDto.swift
 //  UserDto
 //
 //  Created by Victor Chernykh on 07.07.2022.
@@ -8,7 +8,7 @@
 import Foundation
 
 /// Data transfer object with data for user registration
-public struct UserRegistrationData: Codable {
+public struct UserRegistrationDto: Codable {
     // MARK: - Stored properties
     public let email: String
     public let firstName: String

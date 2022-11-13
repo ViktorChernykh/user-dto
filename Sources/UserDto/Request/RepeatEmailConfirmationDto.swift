@@ -1,14 +1,14 @@
 //
-//  ForgotPasswordData.swift
+//  RepeatEmailConfirmationDto.swift
 //  UserDto
 //
-//  Created by Victor Chernykh on 15.07.2022.
+//  Created by Victor Chernykh on 22.07.2022.
 //
 
 import Foundation
 
-/// Data transfer object with a request to change the password
-public struct ForgotPasswordData: Codable {
+/// Data transfer object to repeat email for confirmation
+public struct RepeatEmailConfirmationDto: Codable {
     // MARK: - Stored properties
     public let email: String
     

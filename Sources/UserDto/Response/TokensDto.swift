@@ -1,5 +1,5 @@
 //
-//  TokensData.swift
+//  TokensDto.swift
 //  UserDto
 //
 //  Created by Victor Chernykh on 12.07.2022.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct TokensData: Codable {
+public struct TokensDto: Codable {
     // MARK: - Stored properties
     public let access: String
     public let refresh: String
