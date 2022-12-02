@@ -19,7 +19,7 @@ public struct UserRegistrationDto: Codable {
     public init(
         email: String,
         firstName: String,
-        lastName: String? = nil,
+        lastName: String?,
         password: String
     ) {
         self.email = email

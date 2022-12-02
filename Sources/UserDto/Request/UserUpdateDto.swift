@@ -18,11 +18,11 @@ public struct UserUpdateDto: Codable {
     
     // MARK: - Init
     public init(
-        block: Bool? = nil,
-        isAdmin: Bool? = nil,
-        firstName: String? = nil,
-        lastName: String? = nil,
-        role: String? = nil
+        block: Bool?,
+        isAdmin: Bool?,
+        firstName: String?,
+        lastName: String?,
+        role: String?
     ) {
         self.block = block
         self.isAdmin = isAdmin

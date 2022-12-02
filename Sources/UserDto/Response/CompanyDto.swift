@@ -21,10 +21,10 @@ public struct CompanyDto: Codable {
     
     // MARK: - Init
     public init(
-        appName: String? = nil,
+        appName: String?,
         currency: String,
         defaultLang: String,
-        dns: [String]? = nil,
+        dns: [String]?,
         domain: String,
         isBlocked: Bool,
         mainAddressId: UUID?,

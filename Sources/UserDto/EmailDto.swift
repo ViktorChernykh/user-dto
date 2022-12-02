@@ -20,8 +20,8 @@ public struct EmailDto: Codable {
         to: EmailAddressDto,
         subject: String,
         body: String,
-        from: EmailAddressDto? = nil,
-        replyTo: EmailAddressDto? = nil
+        from: EmailAddressDto?,
+        replyTo: EmailAddressDto?
     ) {
         self.to = to
         self.subject = subject

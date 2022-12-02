@@ -18,7 +18,7 @@ public struct RoleDto: Codable {
     
     // MARK: - Init
     public init(
-        id: UUID? = nil,
+        id: UUID?,
         companyId: UUID,
         role: String,
         description: String,

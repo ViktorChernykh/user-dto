@@ -20,13 +20,13 @@ public struct CompanyUpdateDto: Codable {
     
     // MARK: - Init
     public init(
-        currency: String? = nil,
-        defaultLang: String? = nil,
-        dns: [String]? = nil,
-        isWork: Bool? = nil,
-        mainAddressId: UUID? = nil,
-        name: String? = nil,
-        domain: String? = nil
+        currency: String?,
+        defaultLang: String?,
+        dns: [String]?,
+        isWork: Bool?,
+        mainAddressId: UUID?,
+        name: String?,
+        domain: String?
     ) {
         self.currency = currency
         self.defaultLang = defaultLang
