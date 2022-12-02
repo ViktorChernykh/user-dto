@@ -10,7 +10,7 @@ import Foundation
 /// Data transfer object for update user profile
 public struct UserUpdateDto: Codable {
     // MARK: - Stored properties
-    public let block: Bool?
+    public let isBlock: Bool?
     public let isAdmin: Bool?
     public let firstName: String?
     public let lastName: String?
@@ -18,13 +18,13 @@ public struct UserUpdateDto: Codable {
     
     // MARK: - Init
     public init(
-        block: Bool?,
+        isBlock: Bool?,
         isAdmin: Bool?,
         firstName: String?,
         lastName: String?,
         role: String?
     ) {
-        self.block = block
+        self.isBlock = isBlock
         self.isAdmin = isAdmin
         self.firstName = firstName
         self.lastName = lastName
