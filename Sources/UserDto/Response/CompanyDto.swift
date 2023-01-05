@@ -15,9 +15,12 @@ public struct CompanyDto: Codable {
     public let dns: [String]?
     public let domain: String
     public let isBlocked: Bool
+    public let isWorked: Bool
     public let mainAddressId: UUID?
     public let name: String
     public let tariff: String
+	public let createdAt: Date
+	public let updateAt: Date
     
     // MARK: - Init
     public init(
@@ -27,9 +30,12 @@ public struct CompanyDto: Codable {
         dns: [String]?,
         domain: String,
         isBlocked: Bool,
+		isWorked: Bool,
         mainAddressId: UUID?,
         name: String,
-        tariff: String
+        tariff: String,
+		createdAt: Date,
+		updateAt: Date
     ) {
         self.appName = appName
         self.currency = currency
@@ -37,8 +43,11 @@ public struct CompanyDto: Codable {
         self.dns = dns
         self.domain = domain
         self.isBlocked = isBlocked
+        self.isWorked = isWorked
         self.mainAddressId = mainAddressId
         self.name = name
         self.tariff = tariff
+        self.createdAt = createdAt
+        self.updateAt = updateAt
     }
 }
