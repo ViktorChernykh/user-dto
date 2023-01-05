@@ -20,7 +20,7 @@ public struct CompanyDto: Codable {
     public let name: String
     public let tariff: String
 	public let createdAt: Date
-	public let updateAt: Date
+	public let updateAt: Date?
     
     // MARK: - Init
     public init(
@@ -35,7 +35,7 @@ public struct CompanyDto: Codable {
         name: String,
         tariff: String,
 		createdAt: Date,
-		updateAt: Date
+		updateAt: Date?
     ) {
         self.appName = appName
         self.currency = currency
