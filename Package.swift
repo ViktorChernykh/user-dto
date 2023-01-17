@@ -1,11 +1,11 @@
-// swift-tools-version: 5.7
+// swift-tools-version:5.1
 
 import PackageDescription
 
 let package = Package(
     name: "user-dto",
     platforms: [
-        .macOS(.v12),
+        .macOS(.v10_15),
         .iOS(.v13),
     ],
     products: [
