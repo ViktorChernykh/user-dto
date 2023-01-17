@@ -6,7 +6,7 @@ let package = Package(
     name: "user-dto",
     platforms: [
         .macOS(.v10_15),
-        .iOS(.v13),
+        .iOS(.v10),
     ],
     products: [
         .library(name: "UserDto", targets: ["UserDto"]),
