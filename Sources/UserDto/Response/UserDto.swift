@@ -15,6 +15,7 @@ public struct UserDto: Codable {
     public let email: String
     public let firstName: String
     public let lastName: String?
+    public let twoFactorEnabled: Bool
     
     // MARK: - Init
     public init(
@@ -22,12 +23,14 @@ public struct UserDto: Codable {
         companyId: UUID,
         email: String,
         firstName: String,
-        lastName: String?
+        lastName: String?,
+		twoFactorEnabled: Bool
     ) {
         self.id = id
         self.companyId = companyId
         self.email = email
         self.firstName = firstName
         self.lastName = lastName
+        self.twoFactorEnabled = twoFactorEnabled
     }
 }
