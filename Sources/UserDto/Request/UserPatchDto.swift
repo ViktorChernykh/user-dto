@@ -16,11 +16,11 @@ public struct UserPatchDto: Codable {
     
     // MARK: - Init
     public init(
-        isBlock: Bool?,
-        isAdmin: Bool?,
-        firstName: String?,
-        lastName: String?,
-        role: String?
+        isBlock: Bool? = nil,
+        isAdmin: Bool? = nil,
+        firstName: String? = nil,
+        lastName: String? = nil,
+        role: String? = nil
     ) {
         self.isBlock = isBlock
         self.isAdmin = isAdmin
