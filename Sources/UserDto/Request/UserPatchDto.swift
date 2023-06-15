@@ -5,7 +5,7 @@
 //  Created by Victor Chernykh on 17.07.2022.
 //
 
-/// Data transfer object for update user profile
+/// Data transfer object for update user profile.
 public struct UserPatchDto: Codable {
     // MARK: - Stored properties
     public let isBlock: Bool?
