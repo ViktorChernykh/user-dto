@@ -1,14 +1,12 @@
 //
-//  UserUpdateDto.swift
+//  UserPatchDto.swift
 //  UserDto
 //
 //  Created by Victor Chernykh on 17.07.2022.
 //
 
-import Foundation
-
 /// Data transfer object for update user profile
-public struct UserUpdateDto: Codable {
+public struct UserPatchDto: Codable {
     // MARK: - Stored properties
     public let isBlock: Bool?
     public let isAdmin: Bool?

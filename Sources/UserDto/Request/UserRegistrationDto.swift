@@ -5,8 +5,6 @@
 //  Created by Victor Chernykh on 07.07.2022.
 //
 
-import Foundation
-
 /// Data transfer object with data for user registration
 public struct UserRegistrationDto: Codable {
     // MARK: - Stored properties

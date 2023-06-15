@@ -5,8 +5,6 @@
 //  Created by Victor Chernykh on 10.08.2022.
 //
 
-import Foundation
-
 /// Data transfer object with secure token to confirm password change
 public struct PasswordConfirmationDto: Codable {
     // MARK: - Stored properties

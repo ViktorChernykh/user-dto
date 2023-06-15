@@ -5,8 +5,6 @@
 //  Created by Victor Chernykh on 12.07.2022.
 //
 
-import Foundation
-
 /// Data transfer object with data for change password
 public struct PasswordChangeDto: Codable {
     // MARK: - Stored properties

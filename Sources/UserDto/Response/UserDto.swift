@@ -10,7 +10,7 @@ import Foundation
 /// User public data
 public struct UserDto: Codable {
     // MARK: - Stored properties
-    public let id: UUID
+    public let id: UUID?
     public let companyId: UUID
     public let email: String
     public let firstName: String
@@ -19,7 +19,7 @@ public struct UserDto: Codable {
     
     // MARK: - Init
     public init(
-        id: UUID,
+        id: UUID? = nil,
         companyId: UUID,
         email: String,
         firstName: String,

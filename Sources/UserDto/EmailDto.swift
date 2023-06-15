@@ -5,8 +5,6 @@
 //  Created by Victor Chernykh on 03.07.2022.
 //
 
-import Foundation
-
 public struct EmailDto: Codable {
     // MARK: - Stored properties
     public let to: EmailAddressDto

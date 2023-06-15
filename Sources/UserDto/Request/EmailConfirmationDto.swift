@@ -5,8 +5,6 @@
 //  Created by Victor Chernykh on 01.07.2022.
 //
 
-import Foundation
-
 /// Data transfer object with secure token to confirm email
 public struct EmailConfirmationDto: Codable {
     // MARK: - Stored properties
