@@ -1,5 +1,5 @@
 //
-//  UserDto.swift
+//  AdminDto.swift
 //  UserDto
 //
 //  Created by Victor Chernykh on 07.07.2022.
@@ -8,29 +8,29 @@
 import Foundation
 
 /// User public data
-public struct UserDto: Codable {
+public struct AdminDto: Codable {
     // MARK: - Stored properties
     public let id: UUID?
-    public let companyId: UUID
     public let email: String
     public let firstName: String
     public let lastName: String?
+    public let role: String
     public let twoFactorEnabled: Bool
     
     // MARK: - Init
     public init(
         id: UUID? = nil,
-        companyId: UUID,
         email: String,
         firstName: String,
         lastName: String?,
+		role: String,
 		twoFactorEnabled: Bool
     ) {
         self.id = id
-        self.companyId = companyId
         self.email = email
         self.firstName = firstName
         self.lastName = lastName
+        self.role = role
         self.twoFactorEnabled = twoFactorEnabled
     }
 }
