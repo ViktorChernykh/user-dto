@@ -11,10 +11,10 @@ import Foundation
 public struct BuyerDto: Codable {
     // MARK: - Stored properties
     public let id: UUID?
-    public let email: String
-    public let firstName: String
-    public let lastName: String?
-    public let twoFactorEnabled: Bool
+    public var email: String
+    public var firstName: String
+    public var lastName: String?
+    public var twoFactorEnabled: Bool
     
     // MARK: - Init
     public init(

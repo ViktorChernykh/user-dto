@@ -11,14 +11,14 @@ import Foundation
 public struct AdminDto: Codable {
     // MARK: - Stored properties
     public let id: UUID?
-    public let email: String
-	public let isAdmin: Bool
-	public let isBlocked: Bool
-	public let isEmailConfirmed: Bool
-    public let firstName: String
-    public let lastName: String?
-    public let role: String
-    public let twoFactorEnabled: Bool
+    public var email: String
+	public var isAdmin: Bool
+	public var isBlocked: Bool
+	public var isEmailConfirmed: Bool
+    public var firstName: String
+    public var lastName: String?
+    public var role: String
+    public var twoFactorEnabled: Bool
     
     // MARK: - Init
     public init(
