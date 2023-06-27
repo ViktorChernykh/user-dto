@@ -10,7 +10,7 @@ import Foundation
 /// User public data
 public struct BuyerDto: Codable {
     // MARK: - Stored properties
-    public let id: UUID?
+    public var id: UUID?
     public var email: String
     public var firstName: String
     public var lastName: String?
@@ -19,10 +19,10 @@ public struct BuyerDto: Codable {
     // MARK: - Init
     public init(
         id: UUID? = nil,
-        email: String,
-        firstName: String,
-        lastName: String?,
-		twoFactorEnabled: Bool
+        email: String = "",
+        firstName: String = "",
+        lastName: String? = nil,
+		twoFactorEnabled: Bool = false
     ) {
         self.id = id
         self.email = email

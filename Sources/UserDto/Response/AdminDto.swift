@@ -10,7 +10,7 @@ import Foundation
 /// User public data
 public struct AdminDto: Codable {
     // MARK: - Stored properties
-    public let id: UUID?
+    public var id: UUID?
     public var email: String
 	public var isAdmin: Bool
 	public var isBlocked: Bool
@@ -23,14 +23,14 @@ public struct AdminDto: Codable {
     // MARK: - Init
     public init(
         id: UUID? = nil,
-        email: String,
-		isAdmin: Bool,
-		isBlocked: Bool,
+        email: String = "",
+		isAdmin: Bool = false,
+		isBlocked: Bool = false,
 		isEmailConfirmed: Bool,
-        firstName: String,
-        lastName: String?,
-		role: String,
-		twoFactorEnabled: Bool
+        firstName: String = "",
+        lastName: String? = nil,
+		role: String = "",
+		twoFactorEnabled: Bool = false
     ) {
         self.id = id
         self.email = email
